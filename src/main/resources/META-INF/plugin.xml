@@ -14,8 +14,14 @@
     </extensions>
 
     <actions>
-        <action class="com.baiguiren.actions.HelloWorldAction" id="hello_world" text="Hello World" description="Hello world">
+        <action class="com.baiguiren.actions.HelloWorldAction" id="hello_world"
+                text="Hello World" description="Hello world">
             <add-to-group group-id="ToolsBasicGroup" anchor="first"/>
+        </action>
+        <action class="com.baiguiren.actions.GetCurrentFileAction" id="get_current_file"
+                text="Get Current File" description="Get current file">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="first"/>
         </action>
     </actions>
 </idea-plugin>
