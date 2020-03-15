@@ -10,6 +10,7 @@
 
     <depends>com.intellij.modules.platform</depends>
 
+    <!-- https://www.jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_extensions.html -->
     <extensions defaultExtensionNs="com.intellij">
         <postStartupActivity implementation="com.baiguiren.actions.MyStartupActivity" />
     </extensions>
