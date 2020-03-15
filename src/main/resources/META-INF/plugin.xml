@@ -1,6 +1,7 @@
 <idea-plugin>
     <id>com.baiguiren.my-first-plugin</id>
     <name>Plugin display name here</name>
+    <version>0.0.1</version>
     <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
 
     <description><![CDATA[
@@ -17,6 +18,8 @@
     </extensions>
 
     <actions>
-        <!-- Add your actions here -->
+        <action class="com.baiguiren.actions.HelloWorldAction" id="hello_world" text="Hello World" description="Hello world">
+            <add-to-group group-id="ToolsBasicGroup" anchor="first"/>
+        </action>
     </actions>
 </idea-plugin>
