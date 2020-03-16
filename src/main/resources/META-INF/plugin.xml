@@ -13,6 +13,7 @@
     <!-- https://www.jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_extensions.html -->
     <extensions defaultExtensionNs="com.intellij">
         <postStartupActivity implementation="com.baiguiren.actions.MyStartupActivity" />
+        <backgroundPostStartupActivity implementation="com.baiguiren.actions.MyBackgroundPostStartupActivity" />
     </extensions>
 
     <actions>
